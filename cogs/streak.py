@@ -33,7 +33,7 @@ class Streak(commands.Cog):
             data[user_id]["today_mess_allow"] = True
 
         if (data[user_id]["Streak"] > 0):
-            if (current - data[user_id]["last_time_streak"] >= 86400):
+            if (current - data[user_id]["last_time_streak"] >= 90000):
                 data[user_id]["Streak"] = 0
                 user = await self.bot.fetch_user(int(user_id))
                 await user.send(f"Bạn đã mất chuỗi trong Edit & Meme, hãy bắt đầu trò truyện lại hoặc khôi phục lại chuỗi!")
