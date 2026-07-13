@@ -1,7 +1,5 @@
 import json
 
-TOKEN = "MTUyMzUzOTM1ODE0ODQ2NDc5MQ.Gjb6a_.vCPsgdpJy1gOsKsGHDy75TPCFXkCUbArv-gdvA"
-
 ## default_data
 
 pf_default = {"KLT" : 0, "Streak":0, "last_time_streak": 0,"last_time_mess" : 0, "message_today":0,"today_mess_allow" : False}
