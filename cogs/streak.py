@@ -32,27 +32,6 @@ class Streak(commands.Cog):
 
         config.add_user(data=data,user_id=user_id) # add user
 
-        if data[user]["Streak"] >= 150:
-            if s150_role not in ctx.author.roles:
-                await ctx.author.add_roles(s150_role)
-                await ctx.reply(f"⚡ VỊ THẦN XUẤT HIỆN, **{ctx.author.name}** bay phấp phới, quá khủng khiếp với **150+ Streak Role**!")
-        elif data[user]["Streak"] >= 100:
-            if s100_role not in ctx.author.roles:
-                await ctx.author.add_roles(s100_role)
-                await ctx.reply(f"🔥 WOW, **{ctx.author.name}** tiến đến con số 100 ngày và bú **100 Streak Role**!")
-        elif data[user]["Streak"] >= 30:
-            if s30_role not in ctx.author.roles:
-                await ctx.author.add_roles(s30_role)
-                await ctx.reply(f"🔥 Tuyệt! **{ctx.author.name}** đã gặt hái **30 Streak Role**!")
-        elif data[user]["Streak"] >= 10:
-            if s10_role not in ctx.author.roles:
-                await ctx.author.add_roles(s10_role)
-                await ctx.reply(f"🎉 Tiến xa hơn 1 chút với **10 Streak Role**! Chúc mừng {ctx.author.name}")
-        elif data[user]["Streak"] >= 3:
-            if s3_role not in ctx.author.roles:
-                await ctx.author.add_roles(s3_role)
-                await ctx.reply(f"🎉 Chúc mừng **{ctx.author.name}** đã đạt được **3 Streak Role**!")
-
 
         if(current - data[user_id]["last_time_mess"] >= 86400):  # reset tin nhan sau 24 ke tu lan cuoi
             data[user_id]["message_today"] = 0 
@@ -78,6 +57,27 @@ class Streak(commands.Cog):
             data[user_id]["last_time_mess"] = current
             data[user_id]["last_time_streak"] = current
             data[user_id]["today_mess_allow"] = False
+
+        if data[user_id]["Streak"] >= 150:
+            if s150_role not in ctx.author.roles:
+                await ctx.author.add_roles(s150_role)
+                await ctx.reply(f"⚡ VỊ THẦN XUẤT HIỆN, **{ctx.author.name}** bay phấp phới, quá khủng khiếp với **150+ Streak Role**!")
+        elif data[user_id]["Streak"] >= 100:
+            if s100_role not in ctx.author.roles:
+                await ctx.author.add_roles(s100_role)
+                await ctx.reply(f"🔥 WOW, **{ctx.author.name}** tiến đến con số 100 ngày và bú **100 Streak Role**!")
+        elif data[user_id]["Streak"] >= 30:
+            if s30_role not in ctx.author.roles:
+                await ctx.author.add_roles(s30_role)
+                await ctx.reply(f"🔥 Tuyệt! **{ctx.author.name}** đã gặt hái **30 Streak Role**!")
+        elif data[user_id]["Streak"] >= 10:
+            if s10_role not in ctx.author.roles:
+                await ctx.author.add_roles(s10_role)
+                await ctx.reply(f"🎉 Tiến xa hơn 1 chút với **10 Streak Role**! Chúc mừng {ctx.author.name}")
+        elif data[user_id]["Streak"] >= 3:
+            if s3_role not in ctx.author.roles:
+                await ctx.author.add_roles(s3_role)
+                await ctx.reply(f"🎉 Chúc mừng **{ctx.author.name}** đã đạt được **3 Streak Role**!")
 
         config.save_json(data=data)
             
