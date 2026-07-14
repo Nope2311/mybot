@@ -47,7 +47,7 @@ class Streak(commands.Cog):
 
         data[user_id]["message_today"] += 1 # cong 1 tin nhan 
 
-        if (data[user_id]["today_mess_allow"]):  # nhan gia tri lan cuoi cua reset tin nhan 
+        if (data[user_id]["today_mess_allow"] or data[user_id]["Streak"] == 0):  # nhan gia tri lan cuoi cua reset tin nhan 
             data[user_id]["Streak"] += 1
             if data[user_id]["Streak"] == 1:
                 await ctx.reply(f"**{ctx.author.name}** đã bắt đầu Streak! \nCheck tại `/profile`")
