@@ -4,7 +4,7 @@ backup_active = False
 
 ## default_data
 
-pf_default = {"KLT" : 0, "Streak":0, "last_time_streak": 0,"last_time_mess" : 0, "message_today":0,"today_mess_allow" : False}
+pf_default = {"KLT" : 0, "Streak":0, "last_time_streak": 0,"last_time_mess" : 0, "message_today":0,"today_mess_allow" : True}
 
 ## load and save
 
