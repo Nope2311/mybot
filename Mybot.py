@@ -3,6 +3,7 @@ import config
 import discord
 import os
 from flask import Flask
+from datetime import datetime
 from threading import Thread
 from discord.ext import commands, tasks
 from discord import app_commands
@@ -28,6 +29,7 @@ async def backup():
 
     channel = bot.get_channel(1526396134719881268)
     await channel.send(file=discord.File("pf.json"))
+    await channel.send(f"Đã backup lần cuối vào {datetime.now().date},{datetime.now().time} ")
 
     config.backup_active = False
 
