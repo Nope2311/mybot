@@ -1,5 +1,6 @@
 import json
 
+backup_active = False
 
 ## default_data
 
@@ -13,10 +14,10 @@ def load_json():
     return data
 
 def save_json(data):
+    
     with open("pf.json", "w") as f:
         json.dump(data,f,indent=4)
 
-    global backup_active
     backup_active = True
     
 
