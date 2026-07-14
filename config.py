@@ -1,10 +1,13 @@
 import json
+import discord
+from discord import app_commands
+from discord.ext import commands
 
 backup_active = False
 
 ## default_data
 
-pf_default = {"KLT" : 0, "Streak":0, "last_time_streak": 0,"last_time_mess" : 0, "message_today":0,"today_mess_allow" : True}
+pf_default = {"KLT" : 0, "Streak":0, "last_time_streak": 0,"last_time_mess" : 0, "message_today":0,"today_mess_allow" : False}
 
 ## load and save
 
@@ -44,7 +47,17 @@ def streak_emoji_change(user_streak):
     else:
         emoji = STREAK3
     return emoji
-
+## mess
+async def streak_warn(bot : commands.Bot,current,data,user_id):
+    user = await bot.fetch_user(int(user_id))
+    if (90000 <= (current - data[user_id]["last_time_streak"]) < 90010 ):
+        await user.send(f"Bạn đã mất chuỗi trong Edit & Meme, hãy bắt đầu trò truyện lại hoặc khôi phục lại chuỗi!")
+    elif (88200 <= (current - data[user_id]["last_time_streak"]) < 88210 ):
+        await user.send(f"Còn 30 phút nữa bạn sẽ mất Streak {data[user_id]['Streak']} trong Edit & Meme!, hãy nhắn tin để duy trì")       
+    elif (86400 <= (current - data[user_id]["last_time_streak"]) < 86410 ):
+        await user.send(f"Còn 1 tiếng nữa bạn sẽ mất Streak {data[user_id]['Streak']} trong Edit & Meme!, hãy nhắn tin để duy trì")       
+    
+    
 ## 
 
 MAX_MESSAGE = 1
