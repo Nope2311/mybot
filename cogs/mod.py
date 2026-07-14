@@ -12,7 +12,6 @@ class ModCommands(commands.Cog):
     @app_commands.command()
     async def backup(self,inter : discord.Interaction):
         config.backup_active = True
-        await inter.response.send_message(f"Đã backup lần cuối vào {datetime.now().date},{datetime.now().time} ")
     
 async def setup(bot : commands.Bot):
     await bot.add_cog(ModCommands(bot))
