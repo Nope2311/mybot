@@ -1,10 +1,5 @@
 import json
 
-STREAK3 = "<a:streak3:1525696855890198530>"
-STREAK10 = "<a:streak10:1525696853390135488>"
-STREAK30 = "<a:streak50:1525696852341559306>"
-STREAK100 = "<a:streak100:1525696854304493620>"
-STREAK150_plus = "<a:streak150:1525696851137921144>"
 
 ## default_data
 
@@ -20,6 +15,10 @@ def load_json():
 def save_json(data):
     with open("pf.json", "w") as f:
         json.dump(data,f,indent=4)
+
+    global backup_active
+    backup_active = True
+    
 
 ## user data adder
 
@@ -47,12 +46,24 @@ def streak_emoji_change(user_streak):
 
 ## 
 
-MAX_MESSAGE = 1
+MAX_MESSAGE = 36
 
 COINS = "<a:KLT_coin:1525697095993004174>"
 
 VERIFY = "<:7verify7:1495226080695681164>"
 CROSS = "<:7cross7:1495226068028883046>"
 
+STREAK3 = "<a:streak3:1525696855890198530>"
+STREAK10 = "<a:streak10:1525696853390135488>"
+STREAK30 = "<a:streak50:1525696852341559306>"
+STREAK100 = "<a:streak100:1525696854304493620>"
+STREAK150_plus = "<a:streak150:1525696851137921144>"
 
+## roles 
+
+S3_ROLE = 1526297419245949111
+S10_ROLE = 1526297702122655754
+S30_ROLE = 1526297707226857543
+S100_ROLE = 1526297711031091270
+S150_ROLE = 1505565696153878588
 
