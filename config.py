@@ -41,7 +41,7 @@ def streak_emoji_change(user_streak):
 
 ## 
 
-MAX_MESSAGE = 36
+MAX_MESSAGE = 1
 
 COINS = "<a:KLT_coin:1525697095993004174>"
 
