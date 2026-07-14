@@ -9,7 +9,7 @@ class ModCommands(commands.Cog):
 
     @app_commands.default_permissions(administrator=True)
     @app_commands.command()
-    async def backup(inter : discord.Interaction):
+    async def backup(self,inter : discord.Interaction):
         config.backup_active = True
     
 async def setup(bot : commands.Bot):
