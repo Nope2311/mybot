@@ -21,6 +21,14 @@ class Profile(commands.Cog):
             member = inter.user 
 
         user_id = str(member.id)
+        current = datetime.now().timestamp()
+
+        def format_time(seconds):
+            if seconds >= 3600:
+                return f"{seconds // 3600} giờ"
+            elif seconds >= 60:
+                return f"{seconds // 60} phút"
+            return f"{seconds}s"
         
         data = config.load_json()
 
@@ -28,7 +36,7 @@ class Profile(commands.Cog):
         
         config.save_json(data)
 
-
+        
 
         streak = data[user_id]["Streak"]
         klt_coins = data[user_id]["KLT"]
@@ -48,6 +56,8 @@ class Profile(commands.Cog):
                            value=f"`{klt_coins} KLT`",inline=True)
         pf_embed.add_field(name=f"{emoji_check_message} Tin nhắn đã gửi : ",
                            value=f"`{mess_check_plus} / {config.MAX_MESSAGE} `",inline=True)
+        pf_embed.add_field(name=f"⌚ Bộ đếm chuỗi trong ngày : ",
+                    value=f"`{format_time(current - data[user_id]["last_time_streak"])}`",inline=True)
         
         pf_embed.timestamp = datetime.now(timezone.utc)
 
