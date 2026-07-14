@@ -40,7 +40,7 @@ class Profile(commands.Cog):
 
         streak = data[user_id]["Streak"]
         klt_coins = data[user_id]["KLT"]
-        boDem = format_time(current - data[user_id]["last_time_streak"])
+        boDem = format_time(round(current - data[user_id]["last_time_streak"]))
 
         boDem_current = str(boDem) if (data[user_id]["last_time_streak"] != 0) or (data[user_id]["last_time_mess"] != 0) else "Chưa cập nhật"
 
