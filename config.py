@@ -3,7 +3,7 @@ import discord
 from discord import app_commands
 from discord.ext import commands
 
-backup_active = False
+backup_active = None
 
 ## default_data
 
