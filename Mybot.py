@@ -22,7 +22,7 @@ def run_web():
 Thread(target=run_web).start()
 
 intents = discord.Intents.all()
-bot = commands.Bot(command_prefix="!", intents=intents)
+bot = commands.Bot(command_prefix="e?", intents=intents)
 @tasks.loop(seconds=10)
 async def backup():
     data = config.load_json()
