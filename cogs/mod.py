@@ -21,12 +21,16 @@ class ModCommands(commands.Cog):
         guild = self.bot.get_guild(1454336025076699301)
         role_member = guild.get_role(1464795756010541118)
         channel = mess.channel.overwrites_for(role_member)
+        channel.create_private_threads = False
+        channel.create_private_threads = False
         channel.send_messages = False
         channel.send_messages_in_threads = False
         channel.add_reactions = False
         channel.use_application_commands = False
-        channel.create_private_threads = False
-        channel.create_private_threads = False
+        channel.use_external_apps = False
+    
+
+        
 
         await mess.channel.set_permissions(role_member,overwrite=channel)
         await mess.channel.send("☑️ ĐÃ LOCK KÊNH!")
@@ -38,12 +42,13 @@ class ModCommands(commands.Cog):
         guild = self.bot.get_guild(1454336025076699301)
         role_member = guild.get_role(1464795756010541118)
         channel = mess.channel.overwrites_for(role_member)
+        channel.create_private_threads = True
+        channel.create_private_threads = True
         channel.send_messages = True
         channel.send_messages_in_threads = True
         channel.add_reactions = True
         channel.use_application_commands = True
-        channel.create_private_threads = True
-        channel.create_private_threads = True
+        channel.use_external_apps = False
 
         await mess.channel.set_permissions(role_member,overwrite=channel)
         await mess.channel.send("☑️ ĐÃ UNLOCK KÊNH!")
