@@ -29,7 +29,7 @@ async def backup():
 
     channel = bot.get_channel(1526396134719881268)
     await channel.send(file=discord.File("pf.json"))
-    await channel.send(f"Đã backup lần cuối vào {datetime.now().date},{datetime.now().time} ")
+    await channel.send(f"Đã backup lần cuối vào {datetime.now().today()} ")
 
     config.backup_active = False
 
@@ -39,13 +39,15 @@ async def on_ready():
     await bot.load_extension("cogs.profile")
     await bot.load_extension("cogs.streak")
     await bot.load_extension("cogs.help")
-
+    
+    if not backup.is_running():
+        backup.start()
     data = config.load_json()
     guild = bot.get_guild(1454336025076699301)
     member = guild.members
     for members in guild.members:
-        
         config.add_user(data=data,user_id=str(members.id))
+    config.save_json(data=data)
 
     synced = await bot.tree.sync()
     print(f"so command da dc thuc thi {len(synced)}")
