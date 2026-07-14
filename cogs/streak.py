@@ -21,11 +21,11 @@ class Streak(commands.Cog):
         if ctx.author.bot : return
         if ctx.guild is None : return
         
-        s3_role = ctx.guild.get_role(1525696855890198530)
-        s10_role = ctx.guild.get_role(1525696853390135488)
-        s30_role = ctx.guild.get_role(1525696852341559306)
-        s100_role = ctx.guild.get_role(1525696854304493620)
-        s150_role = ctx.guild.get_role(1525696851137921144)
+        s3_role = ctx.guild.get_role(config.S3_ROLE)
+        s10_role = ctx.guild.get_role(config.S10_ROLE)
+        s30_role = ctx.guild.get_role(config.S30_ROLE)
+        s100_role = ctx.guild.get_role(config.S100_ROLE)
+        s150_role = ctx.guild.get_role(config.S150_ROLE)
 
         data = config.load_json()
         user_id = str(ctx.author.id)
@@ -38,12 +38,9 @@ class Streak(commands.Cog):
             data[user_id]["today_mess_allow"] = True
 
         if (data[user_id]["Streak"] > 0):
-            if (current - data[user_id]["last_time_streak"] >= 86400):
+            if (current - data[user_id]["last_time_streak"] >= 90000 ):
                 data[user_id]["Streak"] = 0
-                user = await self.bot.fetch_user(int(user_id))
                 await ctx.author.remove_roles(s3_role, s10_role, s30_role, s100_role, s150_role)
-                await user.send(f"Bạn đã mất chuỗi trong Edit & Meme, hãy bắt đầu trò truyện lại hoặc khôi phục lại chuỗi!")
-                
 
         data[user_id]["message_today"] += 1 # cong 1 tin nhan 
 
