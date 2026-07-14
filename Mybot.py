@@ -25,6 +25,11 @@ intents = discord.Intents.all()
 bot = commands.Bot(command_prefix="!", intents=intents)
 @tasks.loop(seconds=10)
 async def backup():
+    data = config.load_json()
+    current = datetime.now().timestamp()
+
+    for user_id in data:
+        await config.streak_warn(bot=bot,data=data,user_id=user_id,current=current)
     if not config.backup_active:return
 
     channel = bot.get_channel(1526396134719881268)
