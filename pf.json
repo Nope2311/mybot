@@ -1,43 +1,43 @@
 {
     "846015806579933235": {
         "KLT": 0,
-        "Streak": 1,
-        "last_time_streak": 1783955386.57844,
-        "message_today": 5,
-        "last_time_mess": 1783955386.57844,
+        "Streak": 2,
+        "last_time_streak": 1784041927.175845,
+        "message_today": 2,
+        "last_time_mess": 1784041927.175845,
         "today_mess_allow": false
     },
     "1263117021927968840": {
         "KLT": 0,
-        "Streak": 0,
-        "last_time_streak": 0,
-        "message_today": 6,
-        "last_time_mess": 0,
-        "today_mess_allow": true
+        "Streak": 1,
+        "last_time_streak": 1784012818.944314,
+        "message_today": 16,
+        "last_time_mess": 1784012818.944314,
+        "today_mess_allow": false
     },
     "1187643515124076616": {
         "KLT": 0,
-        "Streak": 0,
-        "last_time_streak": 0,
-        "message_today": 22,
-        "last_time_mess": 0,
-        "today_mess_allow": true
+        "Streak": 1,
+        "last_time_streak": 1784021482.50089,
+        "message_today": 110,
+        "last_time_mess": 1784021482.50089,
+        "today_mess_allow": false
     },
     "1517353162753835052": {
         "KLT": 0,
-        "Streak": 0,
-        "last_time_streak": 0,
-        "message_today": 19,
-        "last_time_mess": 0,
-        "today_mess_allow": true
+        "Streak": 1,
+        "last_time_streak": 1784023531.620792,
+        "message_today": 10,
+        "last_time_mess": 1784023531.620792,
+        "today_mess_allow": false
     },
     "1514943077276586082": {
         "KLT": 0,
-        "Streak": 0,
-        "last_time_streak": 0,
-        "message_today": 4,
-        "last_time_mess": 0,
-        "today_mess_allow": true
+        "Streak": 1,
+        "last_time_streak": 1784024604.49455,
+        "message_today": 20,
+        "last_time_mess": 1784024604.49455,
+        "today_mess_allow": false
     },
     "1263317841902440540": {
         "KLT": 0,
@@ -49,11 +49,11 @@
     },
     "1286511003538030594": {
         "KLT": 0,
-        "Streak": 0,
-        "last_time_streak": 0,
-        "message_today": 5,
-        "last_time_mess": 0,
-        "today_mess_allow": true
+        "Streak": 1,
+        "last_time_streak": 1784034168.796343,
+        "message_today": 4,
+        "last_time_mess": 1784034168.796343,
+        "today_mess_allow": false
     },
     "1498931757989498880": {
         "KLT": 0,
@@ -121,11 +121,11 @@
     },
     "1500062887824195715": {
         "KLT": 0,
-        "Streak": 0,
-        "last_time_streak": 0,
-        "last_time_mess": 0,
-        "message_today": 0,
-        "today_mess_allow": true
+        "Streak": 1,
+        "last_time_streak": 1784036078.319768,
+        "last_time_mess": 1784036078.319768,
+        "message_today": 4,
+        "today_mess_allow": false
     },
     "1467115498796879983": {
         "KLT": 0,
@@ -321,11 +321,11 @@
     },
     "1449187369436708884": {
         "KLT": 0,
-        "Streak": 0,
-        "last_time_streak": 0,
-        "last_time_mess": 0,
-        "message_today": 0,
-        "today_mess_allow": true
+        "Streak": 1,
+        "last_time_streak": 1784024514.971421,
+        "last_time_mess": 1784024514.971421,
+        "message_today": 3,
+        "today_mess_allow": false
     },
     "1210954954483699794": {
         "KLT": 0,
@@ -1225,11 +1225,11 @@
     },
     "1523516697586172104": {
         "KLT": 0,
-        "Streak": 0,
-        "last_time_streak": 0,
-        "last_time_mess": 0,
-        "message_today": 0,
-        "today_mess_allow": true
+        "Streak": 1,
+        "last_time_streak": 1784020826.786021,
+        "last_time_mess": 1784020826.786021,
+        "message_today": 1,
+        "today_mess_allow": false
     },
     "1464785430657372388": {
         "KLT": 0,
@@ -1249,11 +1249,11 @@
     },
     "1149704501616463953": {
         "KLT": 0,
-        "Streak": 0,
-        "last_time_streak": 0,
-        "last_time_mess": 0,
-        "message_today": 0,
-        "today_mess_allow": true
+        "Streak": 1,
+        "last_time_streak": 1784035298.037954,
+        "last_time_mess": 1784035298.037954,
+        "message_today": 3,
+        "today_mess_allow": false
     },
     "1317659385937395713": {
         "KLT": 0,
@@ -1505,11 +1505,11 @@
     },
     "1372007817698869268": {
         "KLT": 0,
-        "Streak": 0,
-        "last_time_streak": 0,
-        "last_time_mess": 0,
-        "message_today": 0,
-        "today_mess_allow": true
+        "Streak": 1,
+        "last_time_streak": 1784026353.41459,
+        "last_time_mess": 1784026353.41459,
+        "message_today": 2,
+        "today_mess_allow": false
     },
     "1256191352673144873": {
         "KLT": 0,
@@ -1638,5 +1638,45 @@
         "last_time_mess": 0,
         "message_today": 0,
         "today_mess_allow": true
+    },
+    "1427257550776045630": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": false
+    },
+    "1471810876037402627": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": false
+    },
+    "1434918246011633816": {
+        "KLT": 0,
+        "Streak": 1,
+        "last_time_streak": 1784021632.40915,
+        "last_time_mess": 1784021632.40915,
+        "message_today": 16,
+        "today_mess_allow": false
+    },
+    "989349105505546350": {
+        "KLT": 0,
+        "Streak": 1,
+        "last_time_streak": 1784023800.581996,
+        "last_time_mess": 1784023800.581996,
+        "message_today": 10,
+        "today_mess_allow": false
+    },
+    "1378209266871173121": {
+        "KLT": 0,
+        "Streak": 1,
+        "last_time_streak": 1784024535.281296,
+        "last_time_mess": 1784024535.281296,
+        "message_today": 43,
+        "today_mess_allow": false
     }
 }
