@@ -42,8 +42,8 @@ async def on_ready():
     guild = bot.get_guild(1454336025076699301)
     member = guild.members
     for members in guild.members:
-        for member_id in members.id:
-            config.add_user(data=data,user_id=member_id)
+        
+        config.add_user(data=data,user_id=str(members.id))
 
     synced = await bot.tree.sync()
     print(f"so command da dc thuc thi {len(synced)}")
