@@ -21,11 +21,11 @@ class Streak(commands.Cog):
         if ctx.author.bot : return
         if ctx.guild is None : return
         
-        s3_role = ctx.guild.get_role(config.S3_ROLE)
-        s10_role = ctx.guild.get_role(config.S10_ROLE)
-        s30_role = ctx.guild.get_role(config.S30_ROLE)
-        s100_role = ctx.guild.get_role(config.S100_ROLE)
-        s150_role = ctx.guild.get_role(config.S150_ROLE)
+        s3_role = ctx.guild.get_role(1525696855890198530)
+        s10_role = ctx.guild.get_role(1525696853390135488)
+        s30_role = ctx.guild.get_role(1525696852341559306)
+        s100_role = ctx.guild.get_role(1525696854304493620)
+        s150_role = ctx.guild.get_role(1525696851137921144)
 
         data = config.load_json()
         user_id = str(ctx.author.id)
