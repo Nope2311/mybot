@@ -4,7 +4,7 @@ import discord
 import os
 from flask import Flask
 from threading import Thread
-from discord.ext import commands
+from discord.ext import commands, tasks
 from discord import app_commands
 
 TOKEN = os.getenv("TOKEN")
@@ -22,12 +22,28 @@ Thread(target=run_web).start()
 
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix="!", intents=intents)
+@tasks.loop(seconds=10)
+async def backup():
+    if not config.backup_active:return
+
+    channel = bot.get_channel(1526396134719881268)
+    await channel.send(file=discord.File("pf.json"))
+
+    config.backup_active = False
 
 @bot.event
 async def on_ready():
+    await bot.load_extension("cogs.mod")
     await bot.load_extension("cogs.profile")
     await bot.load_extension("cogs.streak")
     await bot.load_extension("cogs.help")
+
+    data = config.load_json()
+    guild = bot.get_guild(1454336025076699301)
+    member = guild.members
+    for members in guild.members:
+        for member_id in members.id:
+            config.add_user(data=data,user_id=member_id)
 
     synced = await bot.tree.sync()
     print(f"so command da dc thuc thi {len(synced)}")
