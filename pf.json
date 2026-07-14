@@ -11,43 +11,57 @@
         "KLT": 0,
         "Streak": 0,
         "last_time_streak": 0,
-        "message_today": 6
+        "message_today": 6,
+        "last_time_mess": 0,
+        "today_mess_allow": true
     },
     "1187643515124076616": {
         "KLT": 0,
         "Streak": 0,
         "last_time_streak": 0,
-        "message_today": 22
+        "message_today": 22,
+        "last_time_mess": 0,
+        "today_mess_allow": true
     },
     "1517353162753835052": {
         "KLT": 0,
         "Streak": 0,
         "last_time_streak": 0,
-        "message_today": 19
+        "message_today": 19,
+        "last_time_mess": 0,
+        "today_mess_allow": true
     },
     "1514943077276586082": {
         "KLT": 0,
         "Streak": 0,
         "last_time_streak": 0,
-        "message_today": 4
+        "message_today": 4,
+        "last_time_mess": 0,
+        "today_mess_allow": true
     },
     "1263317841902440540": {
         "KLT": 0,
         "Streak": 0,
         "last_time_streak": 0,
-        "message_today": 1
+        "message_today": 1,
+        "last_time_mess": 0,
+        "today_mess_allow": true
     },
     "1286511003538030594": {
         "KLT": 0,
         "Streak": 0,
         "last_time_streak": 0,
-        "message_today": 5
+        "message_today": 5,
+        "last_time_mess": 0,
+        "today_mess_allow": true
     },
     "1498931757989498880": {
         "KLT": 0,
         "Streak": 0,
         "last_time_streak": 0,
-        "message_today": 1
+        "message_today": 1,
+        "last_time_mess": 0,
+        "today_mess_allow": true
     },
     "1317789587510263898": {
         "KLT": 0,
@@ -64,5 +78,1565 @@
         "last_time_mess": 1783960427.096506,
         "message_today": 3,
         "today_mess_allow": false
+    },
+    "830530156048285716": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1248205177589334026": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "439205512425504771": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1377124304256241758": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1426769222436130938": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1500062887824195715": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1467115498796879983": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1376710118003052586": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1493472920121376849": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1465023120300838972": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1297587016162349076": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "530082442967646230": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1335859590759321612": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1188360431908159623": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1440902093027147889": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1489848812049793035": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1453992954095079548": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1313467457578733619": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1399052534596898907": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1401903684073422868": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1330505918634524764": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1133449766177615873": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1366243427171176548": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1377301530125930526": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1316299708368683018": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1079746094994567289": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1501893769044430886": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1022108765274767401": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1404087311469383710": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "235148962103951360": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1449187369436708884": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1210954954483699794": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1491660818138271784": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "437808476106784770": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "833428629705719828": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1460241713397497939": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "557628352828014614": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1118370067369951284": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1314119711016882198": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "685414165233270798": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1282293364963934318": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1376428776686092339": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1484023593271689387": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "951322029603291168": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1269954136401510452": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1439613647331790870": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1188343487461085267": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1499223394980204564": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1225370447131185172": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1326047545834868767": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1471046321510285409": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1450060292716494940": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1377202059073552434": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "973203019070070784": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1344907166892560527": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "574652751745777665": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1165263814011396096": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1465183797392707706": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1339104312600694846": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1454423976997556235": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "659256822196338709": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1265468392283050071": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1389092879481438269": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1493898650575835246": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1493242090409431180": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1381976595316867202": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1355818965359923280": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1479843974515654717": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "493716749342998541": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1497900548375052364": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1329620463386624021": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1207923287519268875": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "985128150029697064": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1001472831349080124": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "411916947773587456": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1479134879743480053": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1467020162678128722": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "472911936951156740": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1127914871325995079": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1105749454293835786": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1499638861859520573": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1513156101581836398": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1404023386207813693": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1094294361400950868": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1494185020015775768": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1321326377001160718": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1430528748486398014": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1473609832622723215": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1510873012700708946": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1346081131509972995": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1392830811375534090": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1416703132800520212": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1145586061221838848": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1466823534201274536": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1007565364676284477": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1477652204214157474": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1144890454492590091": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1063266252346359880": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "885382259891372033": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "746319936342982666": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1347192323137605703": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1419334469214666975": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1408107498170482840": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1461733502071341111": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1523539358148464791": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "544856369908416537": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1488764355398078585": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "155149108183695360": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1469929443853340865": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1365731702147911724": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "412347553141751808": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1345738829704855625": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1472011873372213370": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1299349067763155065": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1413732868366143668": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1336280548334764124": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "369208607126061057": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "510016054391734273": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1475083687707148350": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1077989328183107594": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1424262431521243136": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1195903346545000468": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1483485558981263532": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1364598229450227803": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1495314624751337513": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1495736115951566868": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1507636802796912711": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "458276816071950337": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1163008532963151882": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1154289944722944000": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "571698364668837938": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1214474032934690827": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "294882584201003009": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1368583738765611109": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1458415802339430443": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1464276982790619307": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1508011166172053514": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1406521681748693002": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "412347257233604609": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1457307489086472244": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1408300907048861736": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1329666633081294879": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "678344927997853742": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1523516697586172104": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1464785430657372388": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "204255221017214977": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1149704501616463953": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1317659385937395713": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1222548162741538938": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "831140416312180756": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1223870285858603028": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1285221784773464133": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1325833474224947311": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1452333443836022957": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1502945683584450681": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1151974834968997969": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "664508672713424926": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1453175656119533725": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1459397037987463359": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1270046532300836897": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1332859144558084166": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "720351927581278219": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1513889612077203592": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1104271481950720110": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1002193754427498496": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "559426966151757824": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1140156379223560263": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1426575895891673280": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1374201683625906196": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1501621165255295267": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1431872741358833799": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "936662970912608287": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1442022217482240113": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1443811842651721820": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1399389095637155940": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1501850532736925758": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1232310578568106066": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1138146574309011566": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1372007817698869268": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1256191352673144873": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "536991182035746816": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1424081327971631216": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1370612066695643186": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1068223828427292784": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1475369870991556648": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1440571210671853620": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1403253443270934528": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1245172545377009839": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1258664403717591061": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1266078555293352021": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1456959967952113705": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1268567771587940457": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1364203867151138878": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "408785106942164992": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
+    },
+    "1443600875040932004": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
+        "today_mess_allow": true
     }
 }
