@@ -1,6 +1,7 @@
 import config
 import json
 import time 
+import random
 from datetime import datetime
 
 import discord
@@ -27,6 +28,11 @@ class Streak(commands.Cog):
         s100_role = ctx.guild.get_role(config.S100_ROLE)
         s150_role = ctx.guild.get_role(config.S150_ROLE)
 
+        chat = ["Tuyệt!","Nhắn vào hôm sau để tiếp tục nhé!","Ngon!"]
+        chat_random = random.choice(chat)
+        channel_streak = self.bot.get_channel(1526890780420210838)
+        if channel_streak in None : return
+
         data = config.load_json()
         user_id = str(ctx.author.id)
 
@@ -46,10 +52,15 @@ class Streak(commands.Cog):
 
         if (data[user_id]["today_mess_allow"] or data[user_id]["Streak"] == 0):  # nhan gia tri lan cuoi cua reset tin nhan 
             data[user_id]["Streak"] += 1
+            if user_id in config.warning_send_message:
+                try:
+                    await config.warning_send_message[user_id].delete()
+                except: pass
+                del config.warning_send_message[user_id]
             if data[user_id]["Streak"] == 1:
-                await ctx.reply(f"**{ctx.author.name}** đã bắt đầu Streak! \nCheck tại `/profile`")
+                await channel_streak.send(f"[🔥] {ctx.author.mention} đã bắt đầu Streak : `{data[user_id]['Streak']}`.{chat_random}")
             elif data[user_id]["Streak"] > 1:
-                await ctx.reply(f"**{ctx.author.name}** đã duy trì Streak! \nCheck tại `/profile`")
+                await channel_streak.send(f"[🔥] {ctx.author.mention} đã duy trì Streak : `{data[user_id]['Streak']}`.{chat_random}")
 
             data[user_id]["last_time_mess"] = current
             data[user_id]["last_time_streak"] = current
@@ -58,25 +69,26 @@ class Streak(commands.Cog):
         if data[user_id]["Streak"] >= 150:
             if s150_role not in ctx.author.roles:
                 await ctx.author.add_roles(s150_role)
-                await ctx.reply(f"⚡ VỊ THẦN XUẤT HIỆN, **{ctx.author.name}** bay phấp phới, quá khủng khiếp với **150+ Streak Role**!")
+                await channel_streak.send(f"⚡ VỊ THẦN XUẤT HIỆN, **{ctx.author.name}** bay phấp phới, quá khủng khiếp với **150+ Streak Role**!")
         elif data[user_id]["Streak"] >= 100:
             if s100_role not in ctx.author.roles:
                 await ctx.author.add_roles(s100_role)
-                await ctx.reply(f"🔥 WOW, **{ctx.author.name}** tiến đến con số 100 ngày và bú **100 Streak Role**!")
+                await channel_streak.send(f"🔥 WOW, **{ctx.author.name}** tiến đến con số 100 ngày và bú **100 Streak Role**!")
         elif data[user_id]["Streak"] >= 30:
             if s30_role not in ctx.author.roles:
                 await ctx.author.add_roles(s30_role)
-                await ctx.reply(f"🔥 Tuyệt! **{ctx.author.name}** đã gặt hái **30 Streak Role**!")
+                await channel_streak.send(f"🔥 Tuyệt! **{ctx.author.name}** đã gặt hái **30 Streak Role**!")
         elif data[user_id]["Streak"] >= 10:
             if s10_role not in ctx.author.roles:
                 await ctx.author.add_roles(s10_role)
-                await ctx.reply(f"🎉 Tiến xa hơn 1 chút với **10 Streak Role**! Chúc mừng {ctx.author.name}")
+                await channel_streak.send(f"🎉 Tiến xa hơn 1 chút với **10 Streak Role**! Chúc mừng {ctx.author.name}")
         elif data[user_id]["Streak"] >= 3:
             if s3_role not in ctx.author.roles:
                 await ctx.author.add_roles(s3_role)
-                await ctx.reply(f"🎉 Chúc mừng **{ctx.author.name}** đã đạt được **3 Streak Role**!")
+                await channel_streak.send(f"🎉 Chúc mừng **{ctx.author.name}** đã đạt được **3 Streak Role**!")
 
         config.save_json(data=data)
+
             
 
 
