@@ -7,7 +7,7 @@ from discord import app_commands
 class ModCommands(commands.Cog):
     def __init__(self, bot : commands.Bot):
         self.bot = bot
-    
+
     @app_commands.default_permissions(administrator=True)
     @app_commands.command()
     async def backup(self,inter : discord.Interaction):
@@ -28,9 +28,6 @@ class ModCommands(commands.Cog):
         channel.add_reactions = False
         channel.use_application_commands = False
         channel.use_external_apps = False
-    
-
-        
 
         await mess.channel.set_permissions(role_member,overwrite=channel)
         await mess.channel.send("☑️ ĐÃ LOCK KÊNH!")
