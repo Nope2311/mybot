@@ -4,10 +4,10 @@ from discord import app_commands
 from discord.ext import commands
 
 backup_active = False
-
 ## default_data
 
 pf_default = {"KLT" : 0, "Streak":0, "last_time_streak": 0,"last_time_mess" : 0, "message_today":0,"today_mess_allow" : False}
+
 
 ## load and save
 
@@ -48,16 +48,39 @@ def streak_emoji_change(user_streak):
         emoji = STREAK3
     return emoji
 ## mess
+    
+warning_send_message = {}
 async def streak_warn(bot : commands.Bot,current,data,user_id):
     guild = bot.get_guild(1454336025076699301)
     member = guild.get_member(int(user_id))
     if (90000 <= (current - data[user_id]["last_time_streak"]) < 90010 ):
-        await member.send(f"Bạn đã mất chuỗi trong Edit & Meme, hãy bắt đầu trò truyện lại hoặc khôi phục lại chuỗi!")
+        if user_id in warning_send_message:
+            try:
+                await warning_send_message[user_id].delete()
+            except:
+                pass
+            del warning_send_message[user_id]
+        matchuoi = await member.send(f"Bạn đã mất chuỗi trong Edit & Meme, hãy bắt đầu trò truyện lại hoặc khôi phục lại chuỗi!")
+        warning_send_message[user_id] = matchuoi
     elif (88200 <= (current - data[user_id]["last_time_streak"]) < 88210 ):
-        await member.send(f"Còn 30 phút nữa bạn sẽ mất Streak {data[user_id]['Streak']} trong Edit & Meme!, hãy nhắn tin để duy trì")       
+        if user_id in warning_send_message:
+            try:
+                await warning_send_message[user_id].delete()
+            except:
+                pass
+            del warning_send_message[user_id]
+        bamuoiphut = await member.send(f"Còn `30 phút` nữa bạn sẽ mất Streak {data[user_id]['Streak']} trong Edit & Meme!, hãy nhắn tin để duy trì") 
+        warning_send_message[user_id] = bamuoiphut
     elif (86400 <= (current - data[user_id]["last_time_streak"]) < 86410 ):
-        await member.send(f"Còn 1 tiếng nữa bạn sẽ mất Streak {data[user_id]['Streak']} trong Edit & Meme!, hãy nhắn tin để duy trì")       
-    
+        if user_id in warning_send_message:
+            try:
+                await warning_send_message[user_id].delete()
+            except:
+                pass
+            del warning_send_message[user_id]
+        mottieng = await member.send(f"Còn `1 tiếng` nữa bạn sẽ mất Streak {data[user_id]['Streak']} trong Edit & Meme!, hãy nhắn tin để duy trì")  
+        warning_send_message[user_id] = mottieng     
+        
     
 ## 
 
