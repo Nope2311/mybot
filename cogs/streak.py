@@ -21,6 +21,7 @@ class Streak(commands.Cog):
 
         if ctx.author.bot : return
         if ctx.guild is None : return
+        channel_streak = ctx.guild.get_channel(1526890780420210838)
         
         s3_role = ctx.guild.get_role(config.S3_ROLE)
         s10_role = ctx.guild.get_role(config.S10_ROLE)
@@ -30,8 +31,6 @@ class Streak(commands.Cog):
 
         chat = ["Tuyệt!","Nhắn vào hôm sau để tiếp tục nhé!","Ngon!"]
         chat_random = random.choice(chat)
-        channel_streak = self.bot.get_channel(1526890780420210838)
-        if channel_streak in None : return
 
         data = config.load_json()
         user_id = str(ctx.author.id)
