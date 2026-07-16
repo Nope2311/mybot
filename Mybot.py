@@ -44,6 +44,7 @@ async def on_ready():
     await bot.load_extension("cogs.profile")
     await bot.load_extension("cogs.streak")
     await bot.load_extension("cogs.help")
+    await bot.change_presence(status=discord.Status.idle, activity=discord.Game(name="/help | Edit & Meme"))
     
     if not backup.is_running():
         backup.start()
