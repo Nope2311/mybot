@@ -53,6 +53,11 @@ warning_send_message = {}
 async def streak_warn(bot : commands.Bot,current,data,user_id):
     guild = bot.get_guild(1454336025076699301)
     member = guild.get_member(int(user_id))
+    s3 = guild.get_role(S3_ROLE)
+    s10 = guild.get_role(S10_ROLE)
+    s30 = guild.get_role(S30_ROLE)
+    s100 = guild.get_role(S100_ROLE)
+    s150 = guild.get_role(S150_ROLE)
     if (90000 <= (current - data[user_id]["last_time_streak"]) < 90010 ):
         if user_id in warning_send_message:
             try:
@@ -60,6 +65,8 @@ async def streak_warn(bot : commands.Bot,current,data,user_id):
             except:
                 pass
             del warning_send_message[user_id]
+        data[user_id]["Streak"] = 0
+        member.remove_roles(s3,s10,s30,s100,s150)
         matchuoi = await member.send(f"Bạn đã mất chuỗi trong Edit & Meme, hãy bắt đầu trò truyện lại hoặc khôi phục lại chuỗi!")
         warning_send_message[user_id] = matchuoi
     elif (88200 <= (current - data[user_id]["last_time_streak"]) < 88210 ):
