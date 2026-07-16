@@ -85,6 +85,10 @@ class Streak(commands.Cog):
             if s3_role not in ctx.author.roles:
                 await ctx.author.add_roles(s3_role)
                 await channel_streak.send(f"🎉 Chúc mừng **{ctx.author.name}** đã đạt được **3 Streak Role**!")
+                embed = discord.Embed(color=discord.Color.random)
+                embed.set_image(url="https://cdn.discordapp.com/attachments/1454481372549873767/1527325915338506350/Comp_1.gif?ex=6a5a409a&is=6a58ef1a&hm=274affdf9d672d1fce6e934277c9a4694dad132ed3a7dc4e163b9cfc948dfd05&")
+
+                await channel_streak.send(embed=embed)
 
         config.save_json(data=data)
 
