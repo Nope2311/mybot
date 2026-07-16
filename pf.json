@@ -1,17 +1,17 @@
 {
     "846015806579933235": {
         "KLT": 0,
-        "Streak": 3,
-        "last_time_streak": 1784128382.136566,
-        "message_today": 113,
-        "last_time_mess": 1784128382.136566,
+        "Streak": 4,
+        "last_time_streak": 1784215111.236718,
+        "message_today": 69,
+        "last_time_mess": 1784215111.236718,
         "today_mess_allow": false
     },
     "1263117021927968840": {
         "KLT": 0,
         "Streak": 1,
         "last_time_streak": 1784167213.995558,
-        "message_today": 149,
+        "message_today": 180,
         "last_time_mess": 1784167213.995558,
         "today_mess_allow": false
     },
@@ -19,7 +19,7 @@
         "KLT": 0,
         "Streak": 3,
         "last_time_streak": 1784194530.806061,
-        "message_today": 22,
+        "message_today": 160,
         "last_time_mess": 1784194530.806061,
         "today_mess_allow": false
     },
@@ -51,7 +51,7 @@
         "KLT": 0,
         "Streak": 1,
         "last_time_streak": 1784192252.194343,
-        "message_today": 12,
+        "message_today": 15,
         "last_time_mess": 1784192252.194343,
         "today_mess_allow": false
     },
@@ -124,7 +124,7 @@
         "Streak": 1,
         "last_time_streak": 1784175242.666132,
         "last_time_mess": 1784175242.666132,
-        "message_today": 29,
+        "message_today": 36,
         "today_mess_allow": false
     },
     "1467115498796879983": {
@@ -1057,11 +1057,11 @@
     },
     "1483485558981263532": {
         "KLT": 0,
-        "Streak": 0,
-        "last_time_streak": 0,
-        "last_time_mess": 0,
-        "message_today": 0,
-        "today_mess_allow": true
+        "Streak": 1,
+        "last_time_streak": 1784215081.688238,
+        "last_time_mess": 1784215081.688238,
+        "message_today": 11,
+        "today_mess_allow": false
     },
     "1364598229450227803": {
         "KLT": 0,
@@ -1508,7 +1508,7 @@
         "Streak": 3,
         "last_time_streak": 1784199219.039202,
         "last_time_mess": 1784199219.039202,
-        "message_today": 3,
+        "message_today": 5,
         "today_mess_allow": false
     },
     "1256191352673144873": {
@@ -1725,6 +1725,14 @@
         "last_time_streak": 1784175620.082817,
         "last_time_mess": 1784175620.082817,
         "message_today": 2,
+        "today_mess_allow": false
+    },
+    "1252623873900548116": {
+        "KLT": 0,
+        "Streak": 0,
+        "last_time_streak": 0,
+        "last_time_mess": 0,
+        "message_today": 0,
         "today_mess_allow": false
     }
 }
